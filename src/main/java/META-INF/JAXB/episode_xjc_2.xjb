@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="3.0" xmlns="https://jakarta.ee/xml/ns/jaxb">
+  <!--
+
+Este archivo ha sido generado por Eclipse Implementation of JAXB v3.0.0 
+Visite https://eclipse-ee4j.github.io/jaxb-ri 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2024.10.23 a las 07:41:51 AM EST 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="http://www.cibertec.edu.pe/ws/object">
+    <schemaBindings map="false">
+      <package name="pe.edu.cibertec.ws.object"/>
+    </schemaBindings>
+    <bindings scd="tns:postPlatoRequest">
+      <class ref="pe.edu.cibertec.ws.object.PostPlatoRequest"/>
+    </bindings>
+    <bindings scd="~tns:platows">
+      <class ref="pe.edu.cibertec.ws.object.Platows"/>
+    </bindings>
+    <bindings scd="tns:postPlatoResponse">
+      <class ref="pe.edu.cibertec.ws.object.PostPlatoResponse"/>
+    </bindings>
+    <bindings scd="tns:putPlatoRequest">
+      <class ref="pe.edu.cibertec.ws.object.PutPlatoRequest"/>
+    </bindings>
+    <bindings scd="tns:putPlatoResponse">
+      <class ref="pe.edu.cibertec.ws.object.PutPlatoResponse"/>
+    </bindings>
+    <bindings scd="tns:getPlatosRequest">
+      <class ref="pe.edu.cibertec.ws.object.GetPlatosRequest"/>
+    </bindings>
+    <bindings scd="tns:getPlatosResponse">
+      <class ref="pe.edu.cibertec.ws.object.GetPlatosResponse"/>
+    </bindings>
+    <bindings scd="tns:getPlatoRequest">
+      <class ref="pe.edu.cibertec.ws.object.GetPlatoRequest"/>
+    </bindings>
+    <bindings scd="tns:getPlatoResponse">
+      <class ref="pe.edu.cibertec.ws.object.GetPlatoResponse"/>
+    </bindings>
+  </bindings>
+</bindings>
+

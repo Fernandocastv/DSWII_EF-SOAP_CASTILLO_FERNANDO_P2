@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="3.0" xmlns="https://jakarta.ee/xml/ns/jaxb">
+  <!--
+
+Este archivo ha sido generado por Eclipse Implementation of JAXB v3.0.0 
+Visite https://eclipse-ee4j.github.io/jaxb-ri 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2024.10.23 a las 07:36:12 AM EST 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="http://www.cibertec.edu.pe/ws/object">
+    <schemaBindings map="false">
+      <package name="pe.edu.cibertec.ws.object"/>
+    </schemaBindings>
+    <bindings scd="tns:postCategoriaRequest">
+      <class ref="pe.edu.cibertec.ws.object.PostCategoriaRequest"/>
+    </bindings>
+    <bindings scd="~tns:categoriaws">
+      <class ref="pe.edu.cibertec.ws.object.Categoriaws"/>
+    </bindings>
+    <bindings scd="tns:postCategoriaResponse">
+      <class ref="pe.edu.cibertec.ws.object.PostCategoriaResponse"/>
+    </bindings>
+    <bindings scd="tns:putCategoriaRequest">
+      <class ref="pe.edu.cibertec.ws.object.PutCategoriaRequest"/>
+    </bindings>
+    <bindings scd="tns:putCategoriaResponse">
+      <class ref="pe.edu.cibertec.ws.object.PutCategoriaResponse"/>
+    </bindings>
+    <bindings scd="tns:getCategoriasRequest">
+      <class ref="pe.edu.cibertec.ws.object.GetCategoriasRequest"/>
+    </bindings>
+    <bindings scd="tns:getCategoriasResponse">
+      <class ref="pe.edu.cibertec.ws.object.GetCategoriasResponse"/>
+    </bindings>
+    <bindings scd="tns:getCategoriaRequest">
+      <class ref="pe.edu.cibertec.ws.object.GetCategoriaRequest"/>
+    </bindings>
+    <bindings scd="tns:getCategoriaResponse">
+      <class ref="pe.edu.cibertec.ws.object.GetCategoriaResponse"/>
+    </bindings>
+  </bindings>
+</bindings>
+

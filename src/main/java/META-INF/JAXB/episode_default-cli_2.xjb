@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="3.0" xmlns="https://jakarta.ee/xml/ns/jaxb">
+  <!--
+
+Este archivo ha sido generado por Eclipse Implementation of JAXB v3.0.0 
+Visite https://eclipse-ee4j.github.io/jaxb-ri 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2024.10.23 a las 08:13:45 AM EST 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="http://www.cibertec.edu.pe/ws/object">
+    <schemaBindings map="false">
+      <package name="pe.edu.cibertec.ws.object"/>
+    </schemaBindings>
+    <bindings scd="tns:postClienteRequest">
+      <class ref="pe.edu.cibertec.ws.object.PostClienteRequest"/>
+    </bindings>
+    <bindings scd="~tns:clientews">
+      <class ref="pe.edu.cibertec.ws.object.Clientews"/>
+    </bindings>
+    <bindings scd="tns:postClienteResponse">
+      <class ref="pe.edu.cibertec.ws.object.PostClienteResponse"/>
+    </bindings>
+    <bindings scd="tns:putClienteRequest">
+      <class ref="pe.edu.cibertec.ws.object.PutClienteRequest"/>
+    </bindings>
+    <bindings scd="tns:putClienteResponse">
+      <class ref="pe.edu.cibertec.ws.object.PutClienteResponse"/>
+    </bindings>
+    <bindings scd="tns:getClientesRequest">
+      <class ref="pe.edu.cibertec.ws.object.GetClientesRequest"/>
+    </bindings>
+    <bindings scd="tns:getClientesResponse">
+      <class ref="pe.edu.cibertec.ws.object.GetClientesResponse"/>
+    </bindings>
+    <bindings scd="tns:getClienteRequest">
+      <class ref="pe.edu.cibertec.ws.object.GetClienteRequest"/>
+    </bindings>
+    <bindings scd="tns:getClienteResponse">
+      <class ref="pe.edu.cibertec.ws.object.GetClienteResponse"/>
+    </bindings>
+  </bindings>
+</bindings>
+

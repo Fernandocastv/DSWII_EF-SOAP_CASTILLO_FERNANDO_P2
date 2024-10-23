@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="3.0" xmlns="https://jakarta.ee/xml/ns/jaxb">
+  <!--
+
+Este archivo ha sido generado por Eclipse Implementation of JAXB v3.0.0 
+Visite https://eclipse-ee4j.github.io/jaxb-ri 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2024.10.23 a las 08:56:56 AM EST 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="http://www.cibertec.edu.pe/ws/object">
+    <schemaBindings map="false">
+      <package name="pe.edu.cibertec.ws.object"/>
+    </schemaBindings>
+    <bindings scd="tns:postMiembroRequest">
+      <class ref="pe.edu.cibertec.ws.object.PostMiembroRequest"/>
+    </bindings>
+    <bindings scd="~tns:miembrows">
+      <class ref="pe.edu.cibertec.ws.object.Miembrows"/>
+    </bindings>
+    <bindings scd="tns:postMiembroResponse">
+      <class ref="pe.edu.cibertec.ws.object.PostMiembroResponse"/>
+    </bindings>
+    <bindings scd="tns:putMiembroRequest">
+      <class ref="pe.edu.cibertec.ws.object.PutMiembroRequest"/>
+    </bindings>
+    <bindings scd="tns:putMiembroResponse">
+      <class ref="pe.edu.cibertec.ws.object.PutMiembroResponse"/>
+    </bindings>
+    <bindings scd="tns:getMiembrosRequest">
+      <class ref="pe.edu.cibertec.ws.object.GetMiembrosRequest"/>
+    </bindings>
+    <bindings scd="tns:getMiembrosResponse">
+      <class ref="pe.edu.cibertec.ws.object.GetMiembrosResponse"/>
+    </bindings>
+    <bindings scd="tns:getMiembroRequest">
+      <class ref="pe.edu.cibertec.ws.object.GetMiembroRequest"/>
+    </bindings>
+    <bindings scd="tns:getMiembroResponse">
+      <class ref="pe.edu.cibertec.ws.object.GetMiembroResponse"/>
+    </bindings>
+  </bindings>
+</bindings>
+

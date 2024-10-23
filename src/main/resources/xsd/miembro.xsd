@@ -1,0 +1,74 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:tns="http://www.cibertec.edu.pe/ws/object"
+           targetNamespace="http://www.cibertec.edu.pe/ws/object"
+           elementFormDefault="qualified">
+
+    <xs:complexType name="miembrows">
+        <xs:sequence>
+            <xs:element name="id" type="xs:int"/>
+            <xs:element name="nombre" type="xs:string"/>
+            <xs:element name="direccion" type="xs:string"/>
+            <xs:element name="telefono" type="xs:string"/>
+            <xs:element name="fechanacimiento" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:element name="postMiembroRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="miembro" type="tns:miembrows"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="postMiembroResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="miembro" type="tns:miembrows"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="putMiembroRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="miembro" type="tns:miembrows"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="putMiembroResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="miembro" type="tns:miembrows"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="getMiembrosRequest">
+        <xs:complexType>
+            <xs:sequence/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="getMiembrosResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="miembros" type="tns:miembrows" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="getMiembroRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="id" type="xs:int"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="getMiembroResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="miembro" type="tns:miembrows"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>
